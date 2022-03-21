@@ -1,5 +1,5 @@
 .fondoHeader{
-     color: $blanco; 
+     
 
 }
 
@@ -13,12 +13,20 @@
     border-bottom: 2px solid $txt-ccg;
 }
 
-.carrito{
-    color: white;
-}
+.navbar-light{
+    .navbar-nav{
+        .nav-link{
+            color: $txt-ccg ;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .nav-link.active{
+            color: $txt-ccg;
+            font-weight: bold;
+            font-size: larger;
+        }
 
-.nav-link{    
-    color: $txt-ccg;
-   
-}
+    }
+
+}   
 
