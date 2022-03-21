@@ -1,0 +1,18 @@
+//reseteo
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Variables
+@import'./variables/colores';
+@import'./variables/tamanios';
+
+
+
+// Secciones
+@import'./secciones/index';
+@import'./secciones/header';
+@import'./secciones/carousel';
+

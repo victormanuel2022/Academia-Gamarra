@@ -1,0 +1,15 @@
+
+.barra{    
+    position: fixe;    
+}
+
+
+//Aplicando media queries a las imágenes del carousel
+@media(max-width:575px){
+    .img-carousel{
+        
+        height: 350px;
+    }
+}
+
+
