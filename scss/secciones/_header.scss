@@ -31,11 +31,15 @@
 }   
 
 .txt-color{
-    color: $blanco;
+    color: rgb(7, 29, 70);
     font-weight: bold;
     font-size: larger;
 }
 
 .intranet{
     background: $txt-ccg;
+}
+
+.tamaño-em{
+    font-size: 7px;
 }
