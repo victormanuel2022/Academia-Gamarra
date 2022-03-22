@@ -27,6 +27,14 @@
   font-weight: bold;
   font-size: larger; }
 
+.txt-color {
+  color: white;
+  font-weight: bold;
+  font-size: larger; }
+
+.intranet {
+  background: #4879db; }
+
 .txt-carousel {
   font-size: 3.5vh;
   color: #f0ebeb;
