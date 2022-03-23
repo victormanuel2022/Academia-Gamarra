@@ -15,50 +15,52 @@
   background: white; }
 
 .logo {
-  width: 10vw; }
+  width: 25vw; }
 
 .mynav a:hover {
   border-radius: 20%;
-  border-bottom: 2px solid #1162ac; }
+  border-bottom: 2px solid #5471a8; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #1162ac;
+  color: #5471a8;
   font-weight: bold;
   font-size: larger; }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #1162ac;
+  color: #5471a8;
   font-weight: bold;
   font-size: larger; }
 
 .txt-color {
   color: white;
   font-weight: bold;
-  font-size: larger; }
+  font-size: 1.3vh; }
 
 .intranet {
-  background: #1162ac; }
+  background: #5471a8;
+  height: 5vh;
+  color: #5471a8; }
 
 .tamaño-em {
   font-size: 7px; }
 
 .redes-sociales {
-  padding: 10px 0;
-  margin-bottom: 40px; }
+  padding: 0px 0;
+  margin-bottom: 0px; }
 
 .redes-sociales .icono {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   color: white;
   background: #cccccc;
   display: inline-block;
-  margin: 2px 2px 2px 2px;
+  margin: 0px 2px 0px 2px;
   text-decoration: none;
   border-radius: 100%; }
 
 .redes-sociales .icono svg {
-  width: 30px;
-  height: 30px; }
+  width: 20px;
+  height: 20px; }
 
 .redes-sociales .whatsapp {
   background: #0cd43e; }

@@ -6,7 +6,7 @@
 
 
 .logo{
-    width: 10vw;
+    width: 25vw;
 }
 
 .mynav a:hover{    
@@ -34,11 +34,13 @@
 .txt-color{
     color: $blanco;
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.3vh;
 }
 
 .intranet{
     background: $txt-ccg;
+    height: 5vh;
+    color: rgb(84, 113, 168);
     
 
 }
@@ -48,20 +50,21 @@
 }
 
 .redes-sociales {
-    padding: 10px 0;
-    margin-bottom: 40px;
+    padding: 0px 0;
+    margin-bottom: 0px;
 }
 
 .redes-sociales{
     .icono{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         color: rgb(255, 255, 255);
         background: rgb(204, 204, 204);
         display: inline-block;
-        margin: 2px 2px 2px 2px;
+        margin: 0px 2px 0px 2px;
         text-decoration: none;
         border-radius: 100%;
+
         
     }
 }
@@ -69,8 +72,8 @@
 .redes-sociales{
     .icono{
         svg{
-            width: 30px;
-            height: 30px;            
+            width: 20px;
+            height: 20px;            
         }
     }
 }
@@ -85,3 +88,4 @@
 .color-house{
     color: $blanco;
 }
+
