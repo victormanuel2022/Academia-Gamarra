@@ -11,33 +11,58 @@
   .img-carousel {
     height: 350px; } }
 
+.fondoHeader {
+  background: white; }
+
 .logo {
-  width: 8vw; }
+  width: 10vw; }
 
 .mynav a:hover {
   border-radius: 20%;
-  border-bottom: 2px solid #4879db; }
+  border-bottom: 2px solid #1162ac; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #4879db;
+  color: #1162ac;
   font-weight: bold;
   font-size: larger; }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #4879db;
+  color: #1162ac;
   font-weight: bold;
   font-size: larger; }
 
 .txt-color {
-  color: #071d46;
+  color: white;
   font-weight: bold;
   font-size: larger; }
 
 .intranet {
-  background: #4879db; }
+  background: #1162ac; }
 
 .tamaño-em {
   font-size: 7px; }
+
+.redes-sociales {
+  padding: 10px 0;
+  margin-bottom: 40px; }
+
+.redes-sociales .icono {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background: #cbcbcb;
+  display: inline-block;
+  margin: 0px 20px;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 3s ease; }
+
+.redes-sociales .icono svg {
+  width: 20px;
+  height: 20px; }
+
+.whatsapp {
+  background: #0cd43e; }
 
 .txt-carousel {
   font-size: 2.5em;

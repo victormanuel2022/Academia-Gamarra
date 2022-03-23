@@ -1,11 +1,12 @@
 .fondoHeader{
+    background: $blanco;
      
 
 }
 
 
 .logo{
-    width: 8vw;
+    width: 10vw;
 }
 
 .mynav a:hover{    
@@ -31,15 +32,49 @@
 }   
 
 .txt-color{
-    color: rgb(7, 29, 70);
+    color: $blanco;
     font-weight: bold;
     font-size: larger;
 }
 
 .intranet{
     background: $txt-ccg;
+    
+
 }
 
 .tamaño-em{
     font-size: 7px;
+}
+
+.redes-sociales {
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.redes-sociales{
+    .icono{
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        background: #cbcbcb;
+        display: inline-block;
+        margin: 0px 20px;
+        text-decoration: none;
+        border-radius: 100px;
+        transition: all 3s ease;
+    }
+}
+
+.redes-sociales{
+    .icono{
+        svg{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.whatsapp{
+    background: #0cd43e;
 }
