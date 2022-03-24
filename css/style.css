@@ -12,19 +12,16 @@
     height: 350px; } }
 
 .fondoHeader {
-  background: white; }
+  background: white;
+  left: 80px; }
 
 .logo {
-  width: 25vw; }
-
-.mynav a:hover {
-  border-radius: 20%;
-  border-bottom: 2px solid #5471a8; }
+  width: 32vw; }
 
 .navbar-light .navbar-nav .nav-link {
   color: #5471a8;
   font-weight: bold;
-  font-size: larger; }
+  font-size: 12px; }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #5471a8;
@@ -34,7 +31,7 @@
 .txt-color {
   color: white;
   font-weight: bold;
-  font-size: 1.3vh; }
+  font-size: 1.4vh; }
 
 .intranet {
   background: #5471a8;
@@ -68,7 +65,17 @@
 .color-house {
   color: white; }
 
+.navbar-toggler {
+  font-size: 1rem;
+  background: #5471a8; }
+
 .txt-carousel {
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: #f0ebeb;
-  font-style: oblique; }
+  font-style: oblique;
+  position: relative;
+  left: -50px;
+  top: 15px; }
+
+.img-carousel {
+  height: 30vh; }

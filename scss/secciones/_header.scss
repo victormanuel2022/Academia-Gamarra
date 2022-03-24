@@ -1,17 +1,11 @@
 .fondoHeader{
     background: $blanco;
-     
-
+    left: 80px;
 }
 
 
 .logo{
-    width: 25vw;
-}
-
-.mynav a:hover{    
-    border-radius: 20%;    
-    border-bottom: 2px solid $txt-ccg;
+    width: 32vw;
 }
 
 .navbar-light{
@@ -19,7 +13,7 @@
         .nav-link{
             color: $txt-ccg ;
             font-weight: bold;
-            font-size: larger;
+            font-size: 12px;
         }
         .nav-link.active{
             color: $txt-ccg;
@@ -34,7 +28,7 @@
 .txt-color{
     color: $blanco;
     font-weight: bold;
-    font-size: 1.3vh;
+    font-size: 1.4vh;
 }
 
 .intranet{
@@ -87,5 +81,10 @@
 
 .color-house{
     color: $blanco;
+}
+
+.navbar-toggler{
+    font-size: 1rem;
+    background: $txt-ccg;
 }
 
