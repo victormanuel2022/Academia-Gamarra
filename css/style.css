@@ -20,15 +20,24 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: #5471a8;
-  font-weight: bold;
-  font-size: 12px; }
+  font-weight: bold; }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #5471a8;
   font-weight: bold;
-  font-size: larger; }
+  font-size: 12px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #5471a8;
+  font-weight: bold;
+  font-size: 9.5px; }
 
 .txt-color {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4vh; }
+
+.txt-cel {
   color: white;
   font-weight: bold;
   font-size: 1.4vh; }
@@ -68,6 +77,34 @@
 .navbar-toggler {
   font-size: 1rem;
   background: #5471a8; }
+
+.txt-color-menu-inf {
+  color: #5471a8; }
+
+@media (min-width: 375px) {
+  .wp-nro {
+    position: relative;
+    left: -20px;
+    margin-top: 6px; }
+  .txt-cel {
+    font-size: 1.7vh; }
+  .redes-sociales {
+    margin-top: 5px; } }
+
+@media (min-width: 425px) {
+  .txt-color {
+    font-size: 1.45vh; }
+  .logo {
+    width: 29vw; } }
+
+@media (min-width: 576px) {
+  .wp-nro {
+    left: 2px; }
+  .logo {
+    width: 21vw;
+    position: relative;
+    left: 10px;
+    top: -5px; } }
 
 .txt-carousel {
   font-size: 1.5em;
