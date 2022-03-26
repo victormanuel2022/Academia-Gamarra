@@ -1,160 +1,188 @@
-.fondoHeader{
-    background: $blanco;
-    left: 80px;
+.barra {
+  position: fixe;
+}
+
+.logo {
+  width: 32vw;
+}
+
+.mynav a:hover {
+  border-radius: 20%;
+  border-bottom: 2px solid $txt-ccg;
+  display: inline-block; 
+  
+  .active{
+    color: #0cd43e;
+  }
 }
 
 
-.logo{
-    width: 32vw;
-}
+// .navbar-nav {
+//   .nav-link {
+//     color: $txt-ccg;
+//     font-weight: bold;
+//     font-size: 9.5px;
+//   }
+// }
 
-.navbar-light{
-    .navbar-nav{
-        .nav-link{
-            color: $txt-ccg;
-            font-weight: bold;
-            
-        }
-        .nav-link.active{
-            color: $txt-ccg;
-            font-weight: bold;
-            font-size: 12px;
-        }
+.navbar-dark {
+  .navbar-nav {
+    .nav-link {
+      color: $txt-ccg;
+      font-weight: 700;
+      font-size: 12px;
 
+      
     }
 
+    
+  }
 }
-
-
 
 .navbar-dark{
-    .navbar-nav{
-        .nav-link{
-            color: $txt-ccg;
-            font-weight: bold;
-            font-size: 9.5px;
-        }
-
-    }
-
-}  
-
-
-.txt-color{
-    color: $blanco;
-    font-weight: bold;
-    font-size: 1.4vh;
+  .rr{
+    color: #0cd43e;
+  }
 }
 
-.txt-cel{
-    color: $blanco;
-    font-weight: bold;
-    font-size: 1.4vh;
+.txt-intranet {
+  color: $blanco;
+  font-weight: bold;
+  font-size: 1.4vh;
 }
 
-.intranet{
-    background: $txt-ccg;
-    height: 5vh;
-    color: rgb(84, 113, 168);   
-
+.txt-cel {
+  color: $blanco;
+  font-weight: bold;
+  font-size: 1.4vh;
 }
 
-.tamaño-em{
-    font-size: 7px;
+.intranet {
+  background: $txt-ccg;
+  height: 5vh;
+  color: rgb(84, 113, 168);
+}
+
+.tamaño-em {
+  font-size: 7px;
+}
+
+.casita{
+  svg{
+    width: 30px;
+    height: 30px;
+  }
+}
+.redes-sociales {
+  padding: 0px 0;
+  margin-bottom: 0px;
 }
 
 .redes-sociales {
-    padding: 0px 0;
-    margin-bottom: 0px;
+  .icono {
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    background: rgb(204, 204, 204);
+    display: inline-block;
+    margin: 0px 2px 0px 2px;
+    text-decoration: none;
+    border-radius: 100%;
+  }
 }
 
-.redes-sociales{
-    .icono{
-        width: 20px;
-        height: 20px;
-        color: rgb(255, 255, 255);
-        background: rgb(204, 204, 204);
-        display: inline-block;
-        margin: 0px 2px 0px 2px;
-        text-decoration: none;
-        border-radius: 100%;        
+.redes-sociales {
+  .icono {
+    svg {
+      width: 20px;
+      height: 20px;
     }
+  }
 }
 
-.redes-sociales{
-    .icono{
-        svg{
-            width: 20px;
-            height: 20px;            
-        }
-    }
-}
-
-.redes-sociales{
-    .whatsapp{
+.redes-sociales {
+  .whatsapp {
     background: #0cd43e;
+  }
 }
 
+.color-house {
+  color: $blanco;
 }
 
-.color-house{
-    color: $blanco;
+.navbar-toggler {
+  font-size: 1rem;
+  background: $txt-ccg;
 }
 
-.navbar-toggler{
-    font-size: 1rem;
-    background: $txt-ccg;
+//Icon Whatsapp
+
+.container-btn-wp{
+  background-color: #2e6329;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
 }
 
-.txt-color-menu-inf{
-    color: $txt-ccg;
+.container-btn-wp:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.icon-wp{
+  width: 40px;
+  transition: ease 1s;
+}
+
+@keyframes efecto{
+  0%{
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100%{
+      box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
 }
 
 //MEDIA QUERIES
-@media (min-width:375px){
-    .wp-nro{
-        position: relative;
-        left: -20px;
-        margin-top: 6px;
-    }
+@media (min-width: 375px) {
+  .wp-nro {
+    position: relative;
+    left: -20px;
+    margin-top: 6px;
+  }
 
-    .txt-cel{        
-        font-size: 1.7vh;        
-    }
+  .txt-cel {
+    font-size: 1.7vh;
+  }
 
-    .redes-sociales {        
-        margin-top: 5px;
-    }
-
-    
-
-
+  .redes-sociales {
+    margin-top: 5px;
+  }
 }
 
-@media (min-width:425px){
-    .txt-color{        
-        font-size: 1.45vh;
-    }
-    .logo{
-        width: 29vw;
-    }
-    
-    
-
-
+@media (min-width: 425px) {
+  .txt-intranet {
+    font-size: 1.45vh;
+  }
+  .logo {
+    width: 29vw;
+  }
 }
-@media (min-width:576px){
-    .wp-nro{
-        left: 2px;
-    }
+@media (min-width: 576px) {
+  .wp-nro {
+    left: 2px;
+  }
 
-    .logo{
-        width: 21vw;
-        position: relative;
-        left: 10px;
-        top: -5px;
-    }
-
-     
- 
+  .logo {
+    width: 21vw;
+    position: relative;
+    left: 10px;
+    top: -5px;
+  }
 }
