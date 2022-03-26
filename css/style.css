@@ -4,11 +4,8 @@
   padding: 0;
   box-sizing: border-box; }
 
-.barra {
-  position: fixe; }
-
-.logo {
-  width: 32vw; }
+.mynav .logo {
+  width: 15vh; }
 
 .mynav a:hover {
   border-radius: 20%;
@@ -25,51 +22,8 @@
 .navbar-dark .rr {
   color: #0cd43e; }
 
-.txt-intranet {
-  color: white;
-  font-weight: bold;
-  font-size: 1.4vh; }
-
-.txt-cel {
-  color: white;
-  font-weight: bold;
-  font-size: 1.4vh; }
-
-.intranet {
-  background: #5471a8;
-  height: 5vh;
-  color: #5471a8; }
-
 .tamaño-em {
   font-size: 7px; }
-
-.casita svg {
-  width: 30px;
-  height: 30px; }
-
-.redes-sociales {
-  padding: 0px 0;
-  margin-bottom: 0px; }
-
-.redes-sociales .icono {
-  width: 20px;
-  height: 20px;
-  color: white;
-  background: #cccccc;
-  display: inline-block;
-  margin: 0px 2px 0px 2px;
-  text-decoration: none;
-  border-radius: 100%; }
-
-.redes-sociales .icono svg {
-  width: 20px;
-  height: 20px; }
-
-.redes-sociales .whatsapp {
-  background: #0cd43e; }
-
-.color-house {
-  color: white; }
 
 .navbar-toggler {
   font-size: 1rem;
@@ -83,7 +37,7 @@
   border-radius: 50%;
   bottom: 20px;
   right: 25px;
-  padding: 10px;
+  padding: 15px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite; }
 

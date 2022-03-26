@@ -1,21 +1,18 @@
-.barra {
-  position: fixe;
+.mynav{
+  .logo {
+  width: 15vh;
 }
-
-.logo {
-  width: 32vw;
 }
 
 .mynav a:hover {
   border-radius: 20%;
   border-bottom: 2px solid $txt-ccg;
-  display: inline-block; 
-  
-  .active{
+  display: inline-block;
+
+  .active {
     color: #0cd43e;
   }
 }
-
 
 // .navbar-nav {
 //   .nav-link {
@@ -31,83 +28,18 @@
       color: $txt-ccg;
       font-weight: 700;
       font-size: 12px;
-
-      
     }
-
-    
   }
 }
 
-.navbar-dark{
-  .rr{
+.navbar-dark {
+  .rr {
     color: #0cd43e;
   }
 }
 
-.txt-intranet {
-  color: $blanco;
-  font-weight: bold;
-  font-size: 1.4vh;
-}
-
-.txt-cel {
-  color: $blanco;
-  font-weight: bold;
-  font-size: 1.4vh;
-}
-
-.intranet {
-  background: $txt-ccg;
-  height: 5vh;
-  color: rgb(84, 113, 168);
-}
-
 .tamaño-em {
   font-size: 7px;
-}
-
-.casita{
-  svg{
-    width: 30px;
-    height: 30px;
-  }
-}
-.redes-sociales {
-  padding: 0px 0;
-  margin-bottom: 0px;
-}
-
-.redes-sociales {
-  .icono {
-    width: 20px;
-    height: 20px;
-    color: rgb(255, 255, 255);
-    background: rgb(204, 204, 204);
-    display: inline-block;
-    margin: 0px 2px 0px 2px;
-    text-decoration: none;
-    border-radius: 100%;
-  }
-}
-
-.redes-sociales {
-  .icono {
-    svg {
-      width: 20px;
-      height: 20px;
-    }
-  }
-}
-
-.redes-sociales {
-  .whatsapp {
-    background: #0cd43e;
-  }
-}
-
-.color-house {
-  color: $blanco;
 }
 
 .navbar-toggler {
@@ -117,7 +49,7 @@
 
 //Icon Whatsapp
 
-.container-btn-wp{
+.container-btn-wp {
   background-color: #2e6329;
   border: 1px solid #fff;
   position: fixed;
@@ -125,29 +57,30 @@
   border-radius: 50%;
   bottom: 20px;
   right: 25px;
-  padding: 10px;
+  padding: 15px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite;
 }
 
-.container-btn-wp:hover{
+.container-btn-wp:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
 
-.icon-wp{
+.icon-wp {
   width: 40px;
   transition: ease 1s;
 }
 
-@keyframes efecto{
-  0%{
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
   }
-  100%{
-      box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  100% {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
   }
 }
+//------------------------------
 
 //MEDIA QUERIES
 @media (min-width: 375px) {
