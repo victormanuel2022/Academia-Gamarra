@@ -74,3 +74,7 @@
 
 .img-carousel {
   height: 35vh; }
+
+@media (min-width: 768px) {
+  .img-carousel {
+    height: 50vh; } }
