@@ -34,7 +34,7 @@
   position: fixed;
   z-index: 999;
   border-radius: 50%;
-  bottom: 20px;
+  bottom: 45px;
   right: 25px;
   padding: 15px;
   transition: ease 0.3s;
@@ -54,30 +54,15 @@
   100% {
     box-shadow: 0 0 0 15px rgba(0, 0, 0, 0); } }
 
-@media (min-width: 375px) {
-  .wp-nro {
-    position: relative;
-    left: -20px;
-    margin-top: 6px; }
-  .txt-cel {
-    font-size: 1.7vh; }
-  .redes-sociales {
-    margin-top: 5px; } }
-
-@media (min-width: 425px) {
-  .txt-intranet {
-    font-size: 1.45vh; }
-  .logo {
-    width: 29vw; } }
-
-@media (min-width: 576px) {
-  .wp-nro {
-    left: 2px; }
-  .logo {
-    width: 21vw;
+@media (min-width: 768px) {
+  .mynav .logo {
+    width: 14vw;
     position: relative;
     left: 10px;
-    top: -5px; } }
+    top: -5px; }
+  .container-btn-wp {
+    bottom: 40px;
+    right: 40px; } }
 
 .txt-carousel {
   font-size: 1.5em;
