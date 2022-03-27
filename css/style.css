@@ -64,7 +64,7 @@
     bottom: 40px;
     right: 40px; } }
 
-.txt-carousel {
+.txt-carousel-1 {
   font-size: 1.6em;
   color: #fff;
   font-style: oblique;
@@ -72,6 +72,17 @@
   left: -46px;
   top: 15px;
   background: #05af68;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #5471a8; }
+
+.txt-carousel-2 {
+  font-size: 1.6em;
+  color: #fff;
+  font-style: oblique;
+  position: relative;
+  left: -46px;
+  top: 15px;
+  background: #0571af;
   border-radius: 10px;
   box-shadow: 3px 3px 3px #5471a8; }
 
@@ -100,6 +111,28 @@
 .img-carousel {
   height: 35vh; }
 
+@media (min-width: 375px) {
+  .txt-carousel-1 {
+    font-size: 1.8em; }
+  .txt-carousel-2 {
+    font-size: 1.8em; }
+  .txt-carousel-3 {
+    font-size: 1.8em; }
+  .txt-carousel-4 {
+    font-size: 1.8em; } }
+
 @media (min-width: 768px) {
   .img-carousel {
-    height: 50vh; } }
+    height: 50vh; }
+  .txt-carousel-1 {
+    font-size: 2.8em;
+    width: 60vw; }
+  .txt-carousel-2 {
+    font-size: 2.8em;
+    width: 60vw; }
+  .txt-carousel-3 {
+    font-size: 2.8em;
+    width: 60vw; }
+  .txt-carousel-4 {
+    font-size: 2.8em;
+    width: 60vw; } }

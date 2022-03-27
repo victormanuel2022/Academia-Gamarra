@@ -1,42 +1,34 @@
-.txt-carousel{
+//Aplicando mixin al carousel
+
+@mixin txt-carousel ($color, $fondo){
     font-size: 1.6em;
-    color: #fff;
+    color: $color;
     font-style: oblique;
     position: relative;
     left: -46px;
     top: 15px;
-    background: rgb(5, 175, 104);
+    background: $fondo;
     border-radius: 10px;
     box-shadow: 3px 3px 3px $txt-ccg;
-    
+
+}
+
+.txt-carousel-1{
+    @include txt-carousel(#fff,rgb(5, 175, 104))
+}
+
+.txt-carousel-2{
+    @include txt-carousel(#fff,rgb(5, 113, 175))
 }
 
 .txt-carousel-3{
-    font-size: 1.6em;
-    color: #fff;
-    font-style: oblique;
-    position: relative;
-    left: -46px;
-    top: 15px;
-    background: rgb(231, 165, 12);
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px $txt-ccg;
-    
+    @include txt-carousel(#fff,rgb(231, 165, 12))
 }
 
 .txt-carousel-4{
-    font-size: 1.6em;
-    color: rgb(22, 22, 98);
-    font-style: oblique;
-    position: relative;
-    left: -46px;
-    top: 15px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px $txt-ccg;
-    
+    @include txt-carousel(rgb(22, 22, 98),#fff)
 }
-
+      
 .img-carousel{
     height: 35vh;
 }
@@ -44,8 +36,18 @@
 
 //MEDIA QUERIES
 @media (min-width: 375px) {
-
-
+    .txt-carousel-1{
+        font-size: 1.8em;
+    }
+    .txt-carousel-2{
+        font-size: 1.8em;
+    }
+    .txt-carousel-3{
+        font-size: 1.8em;
+    }
+    .txt-carousel-4{
+        font-size: 1.8em;
+    }
   
 }
 
@@ -61,6 +63,23 @@
 @media (min-width: 768px) {
     .img-carousel{
         height: 50vh;
+    }
+
+    .txt-carousel-1{
+        font-size: 2.8em;
+        width: 60vw;
+    }
+    .txt-carousel-2{
+        font-size: 2.8em;
+        width: 60vw;
+    }
+    .txt-carousel-3{
+        font-size: 2.8em;
+        width: 60vw;
+    }
+    .txt-carousel-4{
+        font-size: 2.8em;
+        width: 60vw;
     }
   
 }
