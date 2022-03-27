@@ -65,12 +65,34 @@
     right: 40px; } }
 
 .txt-carousel {
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #fff;
   font-style: oblique;
   position: relative;
-  left: -50px;
-  top: 15px; }
+  left: -46px;
+  top: 15px;
+  background: #05af68;
+  border-radius: 10px; }
+
+.txt-carousel-3 {
+  font-size: 1.6em;
+  color: #fff;
+  font-style: oblique;
+  position: relative;
+  left: -46px;
+  top: 15px;
+  background: #e7a50c;
+  border-radius: 10px; }
+
+.txt-carousel-4 {
+  font-size: 1.6em;
+  color: #161662;
+  font-style: oblique;
+  position: relative;
+  left: -46px;
+  top: 15px;
+  background: #fff;
+  border-radius: 10px; }
 
 .img-carousel {
   height: 35vh; }
