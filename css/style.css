@@ -10,17 +10,16 @@
 .mynav a:hover {
   border-radius: 20%;
   border-bottom: 2px solid #5471a8;
-  display: inline-block; }
-  .mynav a:hover .active {
-    color: #0cd43e; }
+  display: inline-block;
+  color: #5471a8 !important; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #5471a8;
   font-weight: 700;
   font-size: 12px; }
 
-.navbar-dark .rr {
-  color: #0cd43e; }
+.navbar-dark .navbar-nav .active {
+  color: #5471a8 !important; }
 
 .tamaño-em {
   font-size: 7px; }
@@ -82,7 +81,7 @@
 
 .txt-carousel {
   font-size: 1.5em;
-  color: #f0ebeb;
+  color: #fff;
   font-style: oblique;
   position: relative;
   left: -50px;

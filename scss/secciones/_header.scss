@@ -8,10 +8,9 @@
   border-radius: 20%;
   border-bottom: 2px solid $txt-ccg;
   display: inline-block;
+  color: $txt-ccg !important;
 
-  .active {
-    color: #0cd43e;
-  }
+  
 }
 
 // .navbar-nav {
@@ -24,19 +23,20 @@
 
 .navbar-dark {
   .navbar-nav {
-    .nav-link {
+    .nav-link { 
       color: $txt-ccg;
       font-weight: 700;
       font-size: 12px;
     }
+    .active{
+      color: $txt-ccg !important;
+      
+    }
+    
   }
 }
 
-.navbar-dark {
-  .rr {
-    color: #0cd43e;
-  }
-}
+
 
 .tamaño-em {
   font-size: 7px;
