@@ -1,13 +1,14 @@
 //Aplicando mixin al carousel
 
 @mixin txt-carousel ($color, $fondo){
-    font-size: 0.5em;
+    font-size: 0.6em;
     width: 95vw;
+    height: 5vh;    
     color: $color;
     font-style: oblique;
     position: relative;
     left: 7px;
-    top: 5px;
+    top: 5px;    
     background: $fondo;
     border-radius: 5px;
     box-shadow: 3px 3px 3px $txt-ccg;
@@ -31,27 +32,34 @@
 }
       
 .img-carousel{
-    height: 35vh;
+    height: 30vh;
 }
 
+.btn-rayita{    
+    top: 150px;
+}
 
 //MEDIA QUERIES
 @media (min-width: 375px) {
     .txt-carousel-1{
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
     .txt-carousel-2{
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
     .txt-carousel-3{
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
     .txt-carousel-4{
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .img-carousel{
         height: 35vh;
+    }
+
+    .btn-rayita{    
+        top: 180px;
     }
   
 }
@@ -72,27 +80,35 @@
 
     .txt-carousel-1{
         font-size: 0.8em;
-        width: 85vw;
-        left: 50px;
+        width: 98vw;
+        left: 10px;
         top: 10px;
+        height: 4.5vh;
     }
     .txt-carousel-2{
         font-size: 0.8em;
-        width: 85vw;
-        left: 50px;
+        width: 98vw;
+        left: 10px;
         top: 10px;
+        height: 4.5vh;
     }
     .txt-carousel-3{
         font-size: 0.8em;
-        width: 85vw;
-        left: 50px;
+        width: 98vw;
+        left: 10px;
         top: 10px;
+        height: 4.5vh;
     }
     .txt-carousel-4{
         font-size: 0.8em;
-        width: 85vw;
-        left: 50px;
+        width: 98vw;
+        left: 10px;
         top: 10px;
+        height: 4.5vh;
+    }
+
+    .btn-rayita{    
+        top: 260px;
     }
   
 }
@@ -130,6 +146,10 @@
         top: 10px;
         height: 4vh;
     }
+
+    .btn-rayita{    
+        top: 320px;
+    }
   
 }
 
@@ -165,6 +185,10 @@
         left: 50px;
         top: 10px;
         height: 4vh;
+    }
+
+    .btn-rayita{    
+        top: 380px;
     }
   
 }

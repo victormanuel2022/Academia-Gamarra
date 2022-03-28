@@ -95,8 +95,9 @@
     right: 25px; } }
 
 .txt-carousel-1 {
-  font-size: 0.5em;
+  font-size: 0.6em;
   width: 95vw;
+  height: 5vh;
   color: #fff;
   font-style: oblique;
   position: relative;
@@ -107,8 +108,9 @@
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-2 {
-  font-size: 0.5em;
+  font-size: 0.6em;
   width: 95vw;
+  height: 5vh;
   color: #fff;
   font-style: oblique;
   position: relative;
@@ -119,8 +121,9 @@
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-3 {
-  font-size: 0.5em;
+  font-size: 0.6em;
   width: 95vw;
+  height: 5vh;
   color: #fff;
   font-style: oblique;
   position: relative;
@@ -131,8 +134,9 @@
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-4 {
-  font-size: 0.5em;
+  font-size: 0.6em;
   width: 95vw;
+  height: 5vh;
   color: #161662;
   font-style: oblique;
   position: relative;
@@ -143,43 +147,54 @@
   box-shadow: 3px 3px 3px #5471a8; }
 
 .img-carousel {
-  height: 35vh; }
+  height: 30vh; }
+
+.btn-rayita {
+  top: 150px; }
 
 @media (min-width: 375px) {
   .txt-carousel-1 {
-    font-size: 0.6em; }
+    font-size: 0.7em; }
   .txt-carousel-2 {
-    font-size: 0.6em; }
+    font-size: 0.7em; }
   .txt-carousel-3 {
-    font-size: 0.6em; }
+    font-size: 0.7em; }
   .txt-carousel-4 {
-    font-size: 0.6em; }
+    font-size: 0.7em; }
   .img-carousel {
-    height: 35vh; } }
+    height: 35vh; }
+  .btn-rayita {
+    top: 180px; } }
 
 @media (min-width: 768px) {
   .img-carousel {
     height: 50vh; }
   .txt-carousel-1 {
     font-size: 0.8em;
-    width: 85vw;
-    left: 50px;
-    top: 10px; }
+    width: 98vw;
+    left: 10px;
+    top: 10px;
+    height: 4.5vh; }
   .txt-carousel-2 {
     font-size: 0.8em;
-    width: 85vw;
-    left: 50px;
-    top: 10px; }
+    width: 98vw;
+    left: 10px;
+    top: 10px;
+    height: 4.5vh; }
   .txt-carousel-3 {
     font-size: 0.8em;
-    width: 85vw;
-    left: 50px;
-    top: 10px; }
+    width: 98vw;
+    left: 10px;
+    top: 10px;
+    height: 4.5vh; }
   .txt-carousel-4 {
     font-size: 0.8em;
-    width: 85vw;
-    left: 50px;
-    top: 10px; } }
+    width: 98vw;
+    left: 10px;
+    top: 10px;
+    height: 4.5vh; }
+  .btn-rayita {
+    top: 260px; } }
 
 @media (min-width: 1024px) {
   .img-carousel {
@@ -207,7 +222,9 @@
     width: 85vw;
     left: 60px;
     top: 10px;
-    height: 4vh; } }
+    height: 4vh; }
+  .btn-rayita {
+    top: 320px; } }
 
 @media (min-width: 1440px) {
   .img-carousel {
@@ -235,4 +252,6 @@
     width: 85vw;
     left: 50px;
     top: 10px;
-    height: 4vh; } }
+    height: 4vh; }
+  .btn-rayita {
+    top: 380px; } }
