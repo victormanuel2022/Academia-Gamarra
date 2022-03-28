@@ -64,6 +64,36 @@
     bottom: 40px;
     right: 40px; } }
 
+@media (min-width: 1024px) {
+  .mynav .logo {
+    width: 15vw;
+    position: relative;
+    left: 5px;
+    top: 1px; }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    left: 20px; }
+  .container-btn-wp {
+    bottom: 23px;
+    right: 25px; } }
+
+@media (min-width: 1440px) {
+  .mynav .logo {
+    width: 16vw;
+    position: relative;
+    left: 5px;
+    top: 1px; }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 20px;
+    margin-left: 14px;
+    position: relative;
+    left: 40px; }
+  .container-btn-wp {
+    bottom: 23px;
+    right: 25px; } }
+
 .txt-carousel-1 {
   font-size: 1.6em;
   color: #fff;
@@ -135,4 +165,36 @@
     width: 60vw; }
   .txt-carousel-4 {
     font-size: 2.8em;
+    width: 60vw; } }
+
+@media (min-width: 1024px) {
+  .img-carousel {
+    height: 60vh; }
+  .txt-carousel-1 {
+    font-size: 3em;
+    width: 60vw; }
+  .txt-carousel-2 {
+    font-size: 3em;
+    width: 60vw; }
+  .txt-carousel-3 {
+    font-size: 3em;
+    width: 60vw; }
+  .txt-carousel-4 {
+    font-size: 3em;
+    width: 60vw; } }
+
+@media (min-width: 1440px) {
+  .img-carousel {
+    height: 70vh; }
+  .txt-carousel-1 {
+    font-size: 4em;
+    width: 60vw; }
+  .txt-carousel-2 {
+    font-size: 4em;
+    width: 60vw; }
+  .txt-carousel-3 {
+    font-size: 4em;
+    width: 60vw; }
+  .txt-carousel-4 {
+    font-size: 4em;
     width: 60vw; } }
