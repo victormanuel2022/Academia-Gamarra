@@ -45,9 +45,9 @@
   position: fixed;
   z-index: 999;
   border-radius: 50%;
-  bottom: 45px;
-  right: 25px;
-  padding: 15px;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite;
 }
@@ -58,7 +58,7 @@
 }
 
 .icon-wp {
-  width: 40px;
+  width: 30px;
   transition: ease 1s;
 }
 
@@ -67,7 +67,7 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
   }
   100% {
-    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
 }
 //------------------------------

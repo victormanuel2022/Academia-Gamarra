@@ -34,9 +34,9 @@
   position: fixed;
   z-index: 999;
   border-radius: 50%;
-  bottom: 45px;
-  right: 25px;
-  padding: 15px;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite; }
 
@@ -45,14 +45,14 @@
   transition: 0.3s; }
 
 .icon-wp {
-  width: 40px;
+  width: 30px;
   transition: ease 1s; }
 
 @keyframes efecto {
   0% {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85); }
   100% {
-    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0); } }
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); } }
 
 @media (min-width: 768px) {
   .mynav .logo {
@@ -95,47 +95,51 @@
     right: 25px; } }
 
 .txt-carousel-1 {
-  font-size: 1.6em;
+  font-size: 0.5em;
+  width: 95vw;
   color: #fff;
   font-style: oblique;
   position: relative;
-  left: -46px;
-  top: 15px;
+  left: 7px;
+  top: 5px;
   background: #05af68;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-2 {
-  font-size: 1.6em;
+  font-size: 0.5em;
+  width: 95vw;
   color: #fff;
   font-style: oblique;
   position: relative;
-  left: -46px;
-  top: 15px;
+  left: 7px;
+  top: 5px;
   background: #0571af;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-3 {
-  font-size: 1.6em;
+  font-size: 0.5em;
+  width: 95vw;
   color: #fff;
   font-style: oblique;
   position: relative;
-  left: -46px;
-  top: 15px;
+  left: 7px;
+  top: 5px;
   background: #e7a50c;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-4 {
-  font-size: 1.6em;
+  font-size: 0.5em;
+  width: 95vw;
   color: #161662;
   font-style: oblique;
   position: relative;
-  left: -46px;
-  top: 15px;
+  left: 7px;
+  top: 5px;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 3px 3px 3px #5471a8; }
 
 .img-carousel {
@@ -143,58 +147,92 @@
 
 @media (min-width: 375px) {
   .txt-carousel-1 {
-    font-size: 1.8em; }
+    font-size: 0.6em; }
   .txt-carousel-2 {
-    font-size: 1.8em; }
+    font-size: 0.6em; }
   .txt-carousel-3 {
-    font-size: 1.8em; }
+    font-size: 0.6em; }
   .txt-carousel-4 {
-    font-size: 1.8em; } }
+    font-size: 0.6em; }
+  .img-carousel {
+    height: 35vh; } }
 
 @media (min-width: 768px) {
   .img-carousel {
     height: 50vh; }
   .txt-carousel-1 {
-    font-size: 2.8em;
-    width: 60vw; }
+    font-size: 0.8em;
+    width: 85vw;
+    left: 50px;
+    top: 10px; }
   .txt-carousel-2 {
-    font-size: 2.8em;
-    width: 60vw; }
+    font-size: 0.8em;
+    width: 85vw;
+    left: 50px;
+    top: 10px; }
   .txt-carousel-3 {
-    font-size: 2.8em;
-    width: 60vw; }
+    font-size: 0.8em;
+    width: 85vw;
+    left: 50px;
+    top: 10px; }
   .txt-carousel-4 {
-    font-size: 2.8em;
-    width: 60vw; } }
+    font-size: 0.8em;
+    width: 85vw;
+    left: 50px;
+    top: 10px; } }
 
 @media (min-width: 1024px) {
   .img-carousel {
     height: 60vh; }
   .txt-carousel-1 {
-    font-size: 3em;
-    width: 60vw; }
+    font-size: 1.1em;
+    width: 85vw;
+    left: 60px;
+    top: 10px;
+    height: 4vh; }
   .txt-carousel-2 {
-    font-size: 3em;
-    width: 60vw; }
+    font-size: 1.1em;
+    width: 85vw;
+    left: 60px;
+    top: 10px;
+    height: 4vh; }
   .txt-carousel-3 {
-    font-size: 3em;
-    width: 60vw; }
+    font-size: 1.1em;
+    width: 85vw;
+    left: 60px;
+    top: 10px;
+    height: 4vh; }
   .txt-carousel-4 {
-    font-size: 3em;
-    width: 60vw; } }
+    font-size: 1.1em;
+    width: 85vw;
+    left: 60px;
+    top: 10px;
+    height: 4vh; } }
 
 @media (min-width: 1440px) {
   .img-carousel {
     height: 70vh; }
   .txt-carousel-1 {
-    font-size: 4em;
-    width: 60vw; }
+    font-size: 1.5em;
+    width: 85vw;
+    left: 50px;
+    top: 10px;
+    height: 4vh; }
   .txt-carousel-2 {
-    font-size: 4em;
-    width: 60vw; }
+    font-size: 1.5em;
+    width: 85vw;
+    left: 50px;
+    top: 10px;
+    height: 4vh; }
   .txt-carousel-3 {
-    font-size: 4em;
-    width: 60vw; }
+    font-size: 1.5em;
+    width: 85vw;
+    left: 50px;
+    top: 10px;
+    height: 4vh; }
   .txt-carousel-4 {
-    font-size: 4em;
-    width: 60vw; } }
+    font-size: 1.5em;
+    width: 85vw;
+    left: 50px;
+    top: 10px;
+    height: 4vh; } }

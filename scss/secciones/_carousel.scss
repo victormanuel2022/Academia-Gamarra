@@ -1,14 +1,15 @@
 //Aplicando mixin al carousel
 
 @mixin txt-carousel ($color, $fondo){
-    font-size: 1.6em;
+    font-size: 0.5em;
+    width: 95vw;
     color: $color;
     font-style: oblique;
     position: relative;
-    left: -46px;
-    top: 15px;
+    left: 7px;
+    top: 5px;
     background: $fondo;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 3px 3px 3px $txt-ccg;
 
 }
@@ -37,16 +38,20 @@
 //MEDIA QUERIES
 @media (min-width: 375px) {
     .txt-carousel-1{
-        font-size: 1.8em;
+        font-size: 0.6em;
     }
     .txt-carousel-2{
-        font-size: 1.8em;
+        font-size: 0.6em;
     }
     .txt-carousel-3{
-        font-size: 1.8em;
+        font-size: 0.6em;
     }
     .txt-carousel-4{
-        font-size: 1.8em;
+        font-size: 0.6em;
+    }
+
+    .img-carousel{
+        height: 35vh;
     }
   
 }
@@ -66,20 +71,28 @@
     }
 
     .txt-carousel-1{
-        font-size: 2.8em;
-        width: 60vw;
+        font-size: 0.8em;
+        width: 85vw;
+        left: 50px;
+        top: 10px;
     }
     .txt-carousel-2{
-        font-size: 2.8em;
-        width: 60vw;
+        font-size: 0.8em;
+        width: 85vw;
+        left: 50px;
+        top: 10px;
     }
     .txt-carousel-3{
-        font-size: 2.8em;
-        width: 60vw;
+        font-size: 0.8em;
+        width: 85vw;
+        left: 50px;
+        top: 10px;
     }
     .txt-carousel-4{
-        font-size: 2.8em;
-        width: 60vw;
+        font-size: 0.8em;
+        width: 85vw;
+        left: 50px;
+        top: 10px;
     }
   
 }
@@ -90,20 +103,32 @@
     }
 
     .txt-carousel-1{
-        font-size: 3em;
-        width: 60vw;
+        font-size: 1.1em;
+        width: 85vw;
+        left: 60px;
+        top: 10px;
+        height: 4vh;
     }
     .txt-carousel-2{
-        font-size: 3em;
-        width: 60vw;
+        font-size: 1.1em;
+        width: 85vw;
+        left: 60px;
+        top: 10px;
+        height: 4vh;
     }
     .txt-carousel-3{
-        font-size: 3em;
-        width: 60vw;
+        font-size: 1.1em;
+        width: 85vw;
+        left: 60px;
+        top: 10px;
+        height: 4vh;
     }
     .txt-carousel-4{
-        font-size: 3em;
-        width: 60vw;
+        font-size: 1.1em;
+        width: 85vw;
+        left: 60px;
+        top: 10px;
+        height: 4vh;
     }
   
 }
@@ -114,20 +139,32 @@
     }
 
     .txt-carousel-1{
-        font-size: 4em;
-        width: 60vw;
+        font-size: 1.5em;
+        width: 85vw;
+        left: 50px;
+        top: 10px;
+        height: 4vh;
     }
     .txt-carousel-2{
-        font-size: 4em;
-        width: 60vw;
+        font-size: 1.5em;
+        width: 85vw;
+        left: 50px;
+        top: 10px;
+        height: 4vh;
     }
     .txt-carousel-3{
-        font-size: 4em;
-        width: 60vw;
+        font-size: 1.5em;
+        width: 85vw;
+        left: 50px;
+        top: 10px;
+        height: 4vh;
     }
     .txt-carousel-4{
-        font-size: 4em;
-        width: 60vw;
+        font-size: 1.5em;
+        width: 85vw;
+        left: 50px;
+        top: 10px;
+        height: 4vh;
     }
   
 }
