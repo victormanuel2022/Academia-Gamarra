@@ -41,8 +41,8 @@
   position: fixed;
   z-index: 999;
   border-radius: 50%;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 30px;
   padding: 10px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite;
@@ -54,7 +54,7 @@
 }
 
 .icon-wp {
-  width: 30px;
+  width: 40px;
   transition: ease 1s;
 }
 
@@ -87,9 +87,13 @@
   }
 
   .container-btn-wp {
-    bottom: 40px;
-    right: 40px;
+    bottom: 20px;
+    right: 50px;
   }
+}
+
+.icon-wp {
+  width: 50px;  
 }
 
 @media (min-width: 1024px) {
@@ -143,5 +147,9 @@
   .container-btn-wp {
     bottom: 23px;
     right: 25px;
+  }
+
+  .icon-wp {
+    width: 60px;  
   }
 }

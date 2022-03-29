@@ -34,8 +34,8 @@
   position: fixed;
   z-index: 999;
   border-radius: 50%;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 30px;
   padding: 10px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite; }
@@ -45,7 +45,7 @@
   transition: 0.3s; }
 
 .icon-wp {
-  width: 30px;
+  width: 40px;
   transition: ease 1s; }
 
 @keyframes efecto {
@@ -61,8 +61,11 @@
     left: 10px;
     top: -5px; }
   .container-btn-wp {
-    bottom: 40px;
-    right: 40px; } }
+    bottom: 20px;
+    right: 50px; } }
+
+.icon-wp {
+  width: 50px; }
 
 @media (min-width: 1024px) {
   .mynav .logo {
@@ -92,7 +95,9 @@
     left: 40px; }
   .container-btn-wp {
     bottom: 23px;
-    right: 25px; } }
+    right: 25px; }
+  .icon-wp {
+    width: 60px; } }
 
 .txt-carousel-1 {
   font-size: 0.7em;
@@ -150,7 +155,7 @@
   height: 30vh; }
 
 .btn-rayita {
-  top: 130px; }
+  top: 320px; }
 
 @media (min-width: 375px) {
   .txt-carousel-1 {
@@ -164,7 +169,7 @@
   .img-carousel {
     height: 35vh; }
   .btn-rayita {
-    top: 155px; } }
+    top: 375px; } }
 
 @media (min-width: 768px) {
   .img-carousel {
@@ -194,7 +199,7 @@
     top: 10px;
     height: 4.5vh; }
   .btn-rayita {
-    top: 230px; } }
+    top: 550px; } }
 
 @media (min-width: 1024px) {
   .img-carousel {
@@ -224,7 +229,7 @@
     top: 10px;
     height: 4vh; }
   .btn-rayita {
-    top: 650px; } }
+    top: 670px; } }
 
 @media (min-width: 1440px) {
   .img-carousel {
@@ -254,4 +259,4 @@
     top: 10px;
     height: 4vh; }
   .btn-rayita {
-    top: 380px; } }
+    top: 780px; } }
