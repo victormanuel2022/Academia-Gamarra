@@ -1,194 +1,184 @@
 //Aplicando mixin al carousel
 
-@mixin txt-carousel ($color, $fondo){
-    font-size: 0.6em;
-    width: 95vw;
-    height: 5vh;    
-    color: $color;
-    font-style: oblique;
-    position: relative;
-    left: 7px;
-    top: 5px;    
-    background: $fondo;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px $txt-ccg;
-
+@mixin txt-carousel($color, $fondo) {
+  font-size: 0.7em;
+  width: 95vw;
+  height: 5vh;
+  color: $color;
+  font-style: oblique;
+  position: relative;
+  left: 7px;
+  top: 5px;
+  background: $fondo;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px $txt-ccg;
 }
 
-.txt-carousel-1{
-    @include txt-carousel(#fff,rgb(5, 175, 104))
+.txt-carousel-1 {
+  @include txt-carousel(#fff, rgb(5, 175, 104));
 }
 
-.txt-carousel-2{
-    @include txt-carousel(#fff,rgb(5, 113, 175))
+.txt-carousel-2 {
+  @include txt-carousel(#fff, rgb(5, 113, 175));
 }
 
-.txt-carousel-3{
-    @include txt-carousel(#fff,rgb(231, 165, 12))
+.txt-carousel-3 {
+  @include txt-carousel(#fff, rgb(231, 165, 12));
 }
 
-.txt-carousel-4{
-    @include txt-carousel(rgb(22, 22, 98),#fff)
-}
-      
-.img-carousel{
-    height: 30vh;
+.txt-carousel-4 {
+  @include txt-carousel(rgb(22, 22, 98), #fff);
 }
 
-.btn-rayita{    
-    top: 150px;
+.img-carousel {
+  height: 30vh;
+}
+
+.btn-rayita {
+  top: 130px;
 }
 
 //MEDIA QUERIES
 @media (min-width: 375px) {
-    .txt-carousel-1{
-        font-size: 0.7em;
-    }
-    .txt-carousel-2{
-        font-size: 0.7em;
-    }
-    .txt-carousel-3{
-        font-size: 0.7em;
-    }
-    .txt-carousel-4{
-        font-size: 0.7em;
-    }
+  .txt-carousel-1 {
+    font-size: 0.7em;
+  }
+  .txt-carousel-2 {
+    font-size: 0.7em;
+  }
+  .txt-carousel-3 {
+    font-size: 0.7em;
+  }
+  .txt-carousel-4 {
+    font-size: 0.7em;
+  }
 
-    .img-carousel{
-        height: 35vh;
-    }
+  .img-carousel {
+    height: 35vh;
+  }
 
-    .btn-rayita{    
-        top: 180px;
-    }
-  
+  .btn-rayita {
+    top: 155px;
+  }
 }
 
 @media (min-width: 425px) {
-  
-
-
 }
 @media (min-width: 576px) {
-  
-  
 }
 @media (min-width: 768px) {
-    .img-carousel{
-        height: 50vh;
-    }
+  .img-carousel {
+    height: 50vh;
+  }
 
-    .txt-carousel-1{
-        font-size: 0.8em;
-        width: 98vw;
-        left: 10px;
-        top: 10px;
-        height: 4.5vh;
-    }
-    .txt-carousel-2{
-        font-size: 0.8em;
-        width: 98vw;
-        left: 10px;
-        top: 10px;
-        height: 4.5vh;
-    }
-    .txt-carousel-3{
-        font-size: 0.8em;
-        width: 98vw;
-        left: 10px;
-        top: 10px;
-        height: 4.5vh;
-    }
-    .txt-carousel-4{
-        font-size: 0.8em;
-        width: 98vw;
-        left: 10px;
-        top: 10px;
-        height: 4.5vh;
-    }
+  .txt-carousel-1 {
+    font-size: 0.8em;
+    width: 98vw;
+    left: 10px;
+    top: 10px;
+    height: 4.5vh;
+  }
+  .txt-carousel-2 {
+    font-size: 0.8em;
+    width: 98vw;
+    left: 10px;
+    top: 10px;
+    height: 4.5vh;
+  }
+  .txt-carousel-3 {
+    font-size: 0.8em;
+    width: 98vw;
+    left: 10px;
+    top: 10px;
+    height: 4.5vh;
+  }
+  .txt-carousel-4 {
+    font-size: 0.8em;
+    width: 98vw;
+    left: 10px;
+    top: 10px;
+    height: 4.5vh;
+  }
 
-    .btn-rayita{    
-        top: 260px;
-    }
-  
+  .btn-rayita {
+    top: 230px;
+  }
 }
 
 @media (min-width: 1024px) {
-    .img-carousel{
-        height: 60vh;
-    }
+  .img-carousel {
+    height: 60vh;
+  }
 
-    .txt-carousel-1{
-        font-size: 1.1em;
-        width: 85vw;
-        left: 60px;
-        top: 10px;
-        height: 4vh;
-    }
-    .txt-carousel-2{
-        font-size: 1.1em;
-        width: 85vw;
-        left: 60px;
-        top: 10px;
-        height: 4vh;
-    }
-    .txt-carousel-3{
-        font-size: 1.1em;
-        width: 85vw;
-        left: 60px;
-        top: 10px;
-        height: 4vh;
-    }
-    .txt-carousel-4{
-        font-size: 1.1em;
-        width: 85vw;
-        left: 60px;
-        top: 10px;
-        height: 4vh;
-    }
+  .txt-carousel-1 {
+    font-size: 1.1em;
+    width: 85vw;
+    left: 60px;
+    top: 10px;
+    height: 4vh;
+  }
+  .txt-carousel-2 {
+    font-size: 1.1em;
+    width: 85vw;
+    left: 60px;
+    top: 10px;
+    height: 4vh;
+  }
+  .txt-carousel-3 {
+    font-size: 1.1em;
+    width: 85vw;
+    left: 60px;
+    top: 10px;
+    height: 4vh;
+  }
+  .txt-carousel-4 {
+    font-size: 1.1em;
+    width: 85vw;
+    left: 60px;
+    top: 10px;
+    height: 4vh;
+  }
 
-    .btn-rayita{    
-        top: 320px;
-    }
-  
+  .btn-rayita {
+    top: 650px;
+  }
 }
 
 @media (min-width: 1440px) {
-    .img-carousel{
-        height: 70vh;
-    }
+  .img-carousel {
+    height: 70vh;
+  }
 
-    .txt-carousel-1{
-        font-size: 1.5em;
-        width: 85vw;
-        left: 50px;
-        top: 10px;
-        height: 4vh;
-    }
-    .txt-carousel-2{
-        font-size: 1.5em;
-        width: 85vw;
-        left: 50px;
-        top: 10px;
-        height: 4vh;
-    }
-    .txt-carousel-3{
-        font-size: 1.5em;
-        width: 85vw;
-        left: 50px;
-        top: 10px;
-        height: 4vh;
-    }
-    .txt-carousel-4{
-        font-size: 1.5em;
-        width: 85vw;
-        left: 50px;
-        top: 10px;
-        height: 4vh;
-    }
+  .txt-carousel-1 {
+    font-size: 1.5em;
+    width: 85vw;
+    left: 50px;
+    top: 10px;
+    height: 4vh;
+  }
+  .txt-carousel-2 {
+    font-size: 1.5em;
+    width: 85vw;
+    left: 50px;
+    top: 10px;
+    height: 4vh;
+  }
+  .txt-carousel-3 {
+    font-size: 1.5em;
+    width: 85vw;
+    left: 50px;
+    top: 10px;
+    height: 4vh;
+  }
+  .txt-carousel-4 {
+    font-size: 1.5em;
+    width: 85vw;
+    left: 50px;
+    top: 10px;
+    height: 4vh;
+  }
 
-    .btn-rayita{    
-        top: 380px;
-    }
-  
+  .btn-rayita {
+    top: 380px;
+  }
 }

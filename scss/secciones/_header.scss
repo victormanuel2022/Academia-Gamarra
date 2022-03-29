@@ -1,7 +1,7 @@
-.mynav{
+.mynav {
   .logo {
-  width: 15vh;
-}
+    width: 15vh;
+  }
 }
 
 .mynav a:hover {
@@ -9,22 +9,18 @@
   border-bottom: 2px solid $txt-ccg;
   display: inline-block;
   color: $txt-ccg !important;
-
-  
 }
 
 .navbar-dark {
   .navbar-nav {
-    .nav-link { 
+    .nav-link {
       color: $txt-ccg;
       font-weight: 700;
       font-size: 12px;
     }
-    .active{
+    .active {
       color: $txt-ccg !important;
-      
     }
-    
   }
 }
 
@@ -74,96 +70,78 @@
 
 //MEDIA QUERIES
 @media (min-width: 375px) {
-
-
-  
 }
 
 @media (min-width: 425px) {
-  
-
-
 }
 @media (min-width: 576px) {
-  
-  
 }
 @media (min-width: 768px) {
-  .mynav{
+  .mynav {
     .logo {
       width: 14vw;
       position: relative;
       left: 10px;
       top: -5px;
+    }
   }
-  }
-  
+
   .container-btn-wp {
-    
     bottom: 40px;
     right: 40px;
-    
   }
 }
 
 @media (min-width: 1024px) {
-  .mynav{
+  .mynav {
     .logo {
       width: 15vw;
       position: relative;
       left: 5px;
       top: 1px;
-  }
+    }
   }
 
   .navbar-dark {
     .navbar-nav {
-      .nav-link {         
+      .nav-link {
         font-size: 14px;
         margin-left: 10px;
         position: relative;
         left: 20px;
       }
-      
-      
     }
   }
-  
+
   .container-btn-wp {
-    
     bottom: 23px;
     right: 25px;
-    
   }
 }
 
 @media (min-width: 1440px) {
-  .mynav{
+  .mynav {
     .logo {
       width: 16vw;
       position: relative;
       left: 5px;
       top: 1px;
-  }
+    }
   }
 
   .navbar-dark {
     .navbar-nav {
-      .nav-link {         
+      .nav-link {
         font-size: 20px;
         margin-left: 14px;
         position: relative;
         left: 40px;
       }
-      
-      
     }
   }
-  
+
   .container-btn-wp {
-    
     bottom: 23px;
     right: 25px;
-    
   }
 }

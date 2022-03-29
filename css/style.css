@@ -95,7 +95,7 @@
     right: 25px; } }
 
 .txt-carousel-1 {
-  font-size: 0.6em;
+  font-size: 0.7em;
   width: 95vw;
   height: 5vh;
   color: #fff;
@@ -108,7 +108,7 @@
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-2 {
-  font-size: 0.6em;
+  font-size: 0.7em;
   width: 95vw;
   height: 5vh;
   color: #fff;
@@ -121,7 +121,7 @@
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-3 {
-  font-size: 0.6em;
+  font-size: 0.7em;
   width: 95vw;
   height: 5vh;
   color: #fff;
@@ -134,7 +134,7 @@
   box-shadow: 3px 3px 3px #5471a8; }
 
 .txt-carousel-4 {
-  font-size: 0.6em;
+  font-size: 0.7em;
   width: 95vw;
   height: 5vh;
   color: #161662;
@@ -150,7 +150,7 @@
   height: 30vh; }
 
 .btn-rayita {
-  top: 150px; }
+  top: 130px; }
 
 @media (min-width: 375px) {
   .txt-carousel-1 {
@@ -164,7 +164,7 @@
   .img-carousel {
     height: 35vh; }
   .btn-rayita {
-    top: 180px; } }
+    top: 155px; } }
 
 @media (min-width: 768px) {
   .img-carousel {
@@ -194,7 +194,7 @@
     top: 10px;
     height: 4.5vh; }
   .btn-rayita {
-    top: 260px; } }
+    top: 230px; } }
 
 @media (min-width: 1024px) {
   .img-carousel {
@@ -224,7 +224,7 @@
     top: 10px;
     height: 4vh; }
   .btn-rayita {
-    top: 320px; } }
+    top: 650px; } }
 
 @media (min-width: 1440px) {
   .img-carousel {
