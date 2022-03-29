@@ -2,6 +2,13 @@
   .logo {
     width: 15vh;
   }
+  
+}
+
+.mynav{
+  background: $ccg;
+  border-bottom: white solid 1px;
+  
 }
 
 .mynav a:hover {
@@ -22,6 +29,14 @@
       color: $txt-ccg !important;
     }
   }
+  // .navbar-toggler-icon{
+  //   background-image: data:image/svg+xml,%3csvg xmlns='http://www.w3.org…dth='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e;
+  // }
+}
+
+.aaa{
+  color: red;
+  background: #2e6329;
 }
 
 .tamaño-em {
@@ -30,7 +45,7 @@
 
 .navbar-toggler {
   font-size: 1rem;
-  background: $txt-ccg;
+  
 }
 
 //Icon Whatsapp
