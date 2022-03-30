@@ -8,8 +8,8 @@
   width: 15vh; }
 
 .mynav {
-  background: linear-gradient(to top, #084298, #1b5794);
-  border-bottom: white solid 1px; }
+  background: linear-gradient(to top, #1C7CE0, #150051);
+  border-bottom: white solid 0.5px; }
 
 .mynav a:hover {
   border-radius: 20%;
